@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:violet" >
+    <header>
+        <h1>Project Management Tool</h1>
+    </header>
+
+    <div class="container">
+        <div class="task-list">
+            <h2>Tasks</h2>
+            <ul id="task-list">
+                <!-- Tasks will be added dynamically using JavaScript -->
+            </ul>
+        </div>
+
+        <div class="task-form">
+            <h2>Add Task</h2>
+            <input type="text" id="task-name" placeholder="Task Name">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
